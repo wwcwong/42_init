@@ -1,0 +1,5 @@
+# Amazon Web Services
+
+# nslookup shows the server addresses used by slash16.org
+# running whois on the server queries IANA to return the provider's name
+whois "$(nslookup slash16.org | awk '{print $2}' | grep '^5' | head -n1)"
