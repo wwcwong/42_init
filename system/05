@@ -1,0 +1,2 @@
+sudo service ssh status
+# https://www.cyberciti.biz/faq/howto-start-stop-ssh-server/

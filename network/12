@@ -1,0 +1,2 @@
+# send ICMP ECHO_REQUEST packets to network hosts
+ping -c5 10.51.1.253

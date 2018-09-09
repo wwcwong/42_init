@@ -1,0 +1,2 @@
+iptables -A INPUT -s 10.0.0.0/8 -j ACCEPT
+# https://unix.stackexchange.com/questions/11851/iptables-allow-certain-ips-and-block-all-other-connection

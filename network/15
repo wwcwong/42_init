@@ -1,0 +1,2 @@
+# echo 'intra.42.fr 46.19.122.85' >> /etc/hosts
+# appending the mapping 46.19.122.85 intra.42.fr will reroute the address, but su permissions are needed to write to the file

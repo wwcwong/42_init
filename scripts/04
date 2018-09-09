@@ -1,0 +1,18 @@
+#!/bin/bash
+
+if [ ! -e etc/cron_md5 ]; then
+	md5sum /etc/crontab > etc/cron_md5
+fi
+
+OLD="$(cat /etc/cron_md5 | awk '{print $1}')"
+NEW="$(md5sum /etc/crontab | awk '{print $1}')"
+
+echo "old md5 is $OLD"
+echo "new md5 is $NEW"
+
+if [ "$OLD" != "$NEW" ]; then
+	echo '/etc/crontab has changed'
+	echo '/etc/crontab has changed' | mail -s "/etc/crontab has changed" root
+fi
+
+# https://linux.die.net/man/1/md5sum

@@ -1,0 +1,2 @@
+iptables -P INPUT REJECT
+# https://serverfault.com/questions/157375/reject-vs-drop-when-using-iptables

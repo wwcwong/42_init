@@ -1,0 +1,4 @@
+# answer : dpm-master.42.us.org
+# dig +short -x 10.51.1.81
+# new address ties to dpm-master.42.us.org
+# 81.1.51.10.in-addr.arpa	name = dpm-master.42.us.org.

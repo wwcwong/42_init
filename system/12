@@ -1,0 +1,3 @@
+du -h /var/*
+# display disk usage statistics
+# "Human-readable" output

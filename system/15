@@ -1,0 +1,3 @@
+kill "$(jobs -p)"
+
+# list the process with jobs

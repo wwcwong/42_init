@@ -1,0 +1,5 @@
+//check hardware ports
+networksetup -listallhardwareports
+
+//linux network commands
+https://geekflare.com/linux-networking-commands/

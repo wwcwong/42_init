@@ -1,0 +1,2 @@
+sudo fdisk -l
+# https://www.cyberciti.biz/faq/linux-list-disk-partitions-command/
